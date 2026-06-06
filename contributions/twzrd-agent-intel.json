@@ -1,0 +1,36 @@
+{
+  "name": "TWZRD Agent Intel",
+  "description": "Trust scoring and x402 micropayment verification for AI agents on Solana. Free: resolve_agent, score_agent, preflight_check, verify_trust_receipt. Paid: get_trust_receipt (HTTP 402 + USDC).",
+  "url": "https://intel.twzrd.xyz",
+  "category": "Finance",
+  "tags": [
+    "solana",
+    "x402",
+    "trust-scoring",
+    "micropayments",
+    "agent-identity",
+    "web3"
+  ],
+  "installation": [
+    {
+      "command": "pip install twzrd-agent-intel",
+      "package": "twzrd-agent-intel",
+      "type": "pip"
+    }
+  ],
+  "author": {
+    "name": "TWZRD",
+    "github": "twzrd-sol"
+  },
+  "license": "MIT",
+  "documentation": "https://intel.twzrd.xyz",
+  "features": [
+    "Agent trust scoring on Solana",
+    "x402 micropayment verification (USDC)",
+    "Free tools: resolve_agent, score_agent, preflight_check, verify_trust_receipt",
+    "Paid tool: get_trust_receipt (HTTP 402)",
+    "Streamable-HTTP MCP endpoint"
+  ],
+  "status": "stable",
+  "last_updated": "2026-06-06"
+}
