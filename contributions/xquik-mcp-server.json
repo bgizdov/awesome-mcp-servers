@@ -1,0 +1,35 @@
+{
+  "name": "Xquik MCP Server",
+  "description": "Remote MCP server for X data workflows, endpoint discovery, API requests, webhooks, and extraction jobs.",
+  "url": "https://github.com/Xquik-dev/x-twitter-scraper",
+  "category": "API",
+  "tags": ["x", "twitter", "api", "social-media", "mcp", "remote"],
+  "installation": [
+    {
+      "command": "Configure https://xquik.com/mcp as an HTTP MCP server",
+      "package": "https://xquik.com/mcp",
+      "type": "remote"
+    }
+  ],
+  "author": {
+    "name": "Xquik-dev",
+    "github": "Xquik-dev"
+  },
+  "license": "MIT",
+  "documentation": "https://docs.xquik.com/mcp/overview",
+  "examples": [
+    "Use explore to find the documented endpoint for a workflow",
+    "Use xquik to call a documented API route after user confirmation"
+  ],
+  "requirements": {
+    "other": "Xquik API key for authenticated API requests"
+  },
+  "features": [
+    "Streamable HTTP MCP endpoint",
+    "Endpoint catalog discovery",
+    "Authenticated X data API requests",
+    "Webhook and extraction workflow support"
+  ],
+  "status": "stable",
+  "last_updated": "2026-06-08"
+}
