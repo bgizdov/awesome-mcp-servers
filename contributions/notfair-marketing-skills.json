@@ -1,0 +1,27 @@
+{
+  "name": "NotFair - SEO & Paid Ads Skills for Claude Code",
+  "description": "Open-source Claude Code agent skills for SEO, GEO, Google Ads, and Meta Ads. Connects to live data through Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP. Includes skills for site analysis, keyword research, meta tags, schema markup, ad audits, wasted-spend detection, search-term cleanup, and Meta (Facebook + Instagram) Ads management.",
+  "url": "https://github.com/nowork-studio/NotFair",
+  "category": "AI/ML",
+  "tags": ["seo", "google-ads", "meta-ads", "claude-code", "agent-skills", "marketing", "mcp", "geo", "facebook-ads", "instagram-ads"],
+  "author": {
+    "name": "NotFair / Nowork Studio",
+    "github": "nowork-studio"
+  },
+  "license": "MIT",
+  "documentation": "https://github.com/nowork-studio/NotFair#readme",
+  "examples": [
+    "SEO site analysis and keyword research via Google Search Console MCP",
+    "Google Ads audits and wasted-spend detection via Google Ads MCP",
+    "Meta Ads ROAS analysis and creative fatigue detection via Meta Ads MCP",
+    "GEO optimization and schema markup generation"
+  ],
+  "features": [
+    "SEO: site analysis, keyword research, meta tags, schema markup, GEO optimization, content writing",
+    "Google Ads: audits, wasted-spend detection, search-term cleanup, keyword & bid management",
+    "Meta Ads: ROAS analysis, creative fatigue, audience overlap for Facebook & Instagram",
+    "Connects to Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP"
+  ],
+  "status": "stable",
+  "last_updated": "2026-06-19"
+}
