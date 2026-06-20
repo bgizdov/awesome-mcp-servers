@@ -1,0 +1,20 @@
+{
+  "name": "ax",
+  "description": "Local coding-agent telemetry and recall graph with read-only MCP queries for sessions, skills, costs, and dispatch routing.",
+  "url": "https://github.com/Necmttn/ax",
+  "category": "Monitoring",
+  "tags": ["agent-observability", "agent-memory", "telemetry", "mcp", "developer-tools"],
+  "author": {
+    "name": "Necmettin Karakaya",
+    "github": "Necmttn"
+  },
+  "license": "AGPL-3.0",
+  "documentation": "https://github.com/Necmttn/ax#readme",
+  "features": [
+    "Ingests Claude Code, Codex, Pi, OpenCode, and Cursor agent transcripts",
+    "Exposes read-only MCP tools for recall, session inspection, skill usage, cost analytics, and dispatches",
+    "Keeps raw provider events alongside normalized sessions, turns, and tool calls"
+  ],
+  "status": "beta",
+  "last_updated": "2026-06-20"
+}
