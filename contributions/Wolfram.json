@@ -1,0 +1,25 @@
+{
+  "name": "Wolfram",
+  "description": "Inject precise, real-time computation and knowledge",
+  "url": "https://github.com/WolframResearch/AgentTools",
+  "category": "AI/ML",
+  "tags": ["productivity", "data", "analytics", "education"],
+  "author": {
+    "name": "Wolfram Research",
+    "github": "WolframResearch",
+    "email": "support@wolfram.com"
+  },
+  "license": "MIT",
+  "documentation": "https://www.wolfram.com/artificial-intelligence/mcp-service/",
+  "examples": [
+    "https://www.wolfram.com/artificial-intelligence/mcp/cloud/wolfram-mcp-cloud/",
+    "https://www.wolfram.com/artificial-intelligence/mcp/local/wolfram-mcp-local/"
+  ],
+  "features": [
+    "Query WolframAlpha for computations, facts, and data analysis",
+    "Evaluate Wolfram Language code for advanced symbolic and numerical computation",
+    "Access Wolfram context and knowledge base"
+  ],
+  "status": "stable",
+  "last_updated": "2026-04-18"
+}
