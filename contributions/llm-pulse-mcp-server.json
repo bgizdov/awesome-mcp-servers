@@ -1,0 +1,40 @@
+{
+  "name": "LLM Pulse MCP Server",
+  "description": "AI visibility analytics for brand mentions, citations, sentiment, share of voice, recommendations, tracked prompts, and AI traffic.",
+  "url": "https://github.com/LLM-Pulse/llmpulse-mcp",
+  "category": "API",
+  "tags": [
+    "ai-visibility",
+    "analytics",
+    "marketing",
+    "streamable-http"
+  ],
+  "installation": [
+    {
+      "command": "git clone https://github.com/LLM-Pulse/llmpulse-mcp && cd llmpulse-mcp && npm ci && npm run smoke",
+      "package": "llmpulse-mcp",
+      "type": "source"
+    }
+  ],
+  "author": {
+    "name": "LLM Pulse",
+    "github": "LLM-Pulse"
+  },
+  "license": "MIT",
+  "documentation": "https://github.com/LLM-Pulse/llmpulse-mcp#readme",
+  "examples": [
+    "Connect to the hosted Streamable HTTP endpoint at https://api.llmpulse.ai/api/v1/mcp with Bearer authentication.",
+    "Use the local wrapper to expose LLM Pulse MCP status and connection metadata to stdio clients."
+  ],
+  "requirements": {
+    "node": ">=18.0.0",
+    "other": "LLM Pulse API key for authenticated analytics tools"
+  },
+  "features": [
+    "Brand mentions and visibility analytics",
+    "Citations, sentiment, and share of voice",
+    "Recommendations, tracked prompts, and AI traffic"
+  ],
+  "status": "stable",
+  "last_updated": "2026-07-06"
+}
