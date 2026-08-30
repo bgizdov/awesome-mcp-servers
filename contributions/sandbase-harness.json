@@ -1,0 +1,34 @@
+{
+  "name": "SandBase Harness",
+  "description": "Self-hosted agent runtime exposing durable sessions, sandboxed execution, approvals, artifacts, audit, and replay through a local stdio MCP bridge.",
+  "url": "https://github.com/sandbaseai/sandbase-harness",
+  "category": "DevOps",
+  "tags": ["agent-runtime", "sandbox", "sessions", "audit", "self-hosted"],
+  "installation": [
+    {
+      "command": "docker run --rm -i -e MANAGED_AGENTS_URL=http://host.docker.internal:3000 ghcr.io/sandbaseai/sandbase-harness-mcp:0.3.8",
+      "package": "ghcr.io/sandbaseai/sandbase-harness-mcp:0.3.8",
+      "type": "docker"
+    }
+  ],
+  "author": {
+    "name": "SandBase",
+    "github": "sandbaseai"
+  },
+  "license": "Apache-2.0",
+  "documentation": "https://github.com/sandbaseai/sandbase-harness/blob/main/llms-install.md",
+  "examples": [
+    "https://github.com/sandbaseai/sandbase-harness/tree/main/examples"
+  ],
+  "requirements": {
+    "node": ">=22.0.0",
+    "other": "A running self-hosted SandBase Harness API; Docker is required for the published bridge image."
+  },
+  "features": [
+    "Durable agent sessions",
+    "Backend-selectable sandboxed execution",
+    "MCP tools, approvals, artifacts, audit, and replay"
+  ],
+  "status": "stable",
+  "last_updated": "2026-08-31"
+}
