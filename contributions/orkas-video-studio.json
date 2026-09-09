@@ -1,0 +1,25 @@
+{
+  "name": "OrkasVideoStudio",
+  "description": "MIT-licensed, local-first TypeScript CLI and MCP toolkit for composing, editing, generating, and assembling videos from editable plan.json timelines.",
+  "url": "https://github.com/Orkas-AI/Orkas-VideoStudio",
+  "category": "AI/ML",
+  "tags": [
+    "video",
+    "editing",
+    "composition",
+    "typescript",
+    "local-first"
+  ],
+  "license": "MIT",
+  "documentation": "https://github.com/Orkas-AI/Orkas-VideoStudio#readme",
+  "features": [
+    "Editable plan.json video timelines",
+    "Video composition and editing",
+    "Optional generation with user-supplied provider keys"
+  ],
+  "requirements": {
+    "node": ">=22",
+    "other": "Source installation with pnpm; ffmpeg and ffprobe for local media operations"
+  },
+  "last_updated": "2026-09-09"
+}
