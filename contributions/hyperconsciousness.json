@@ -1,0 +1,34 @@
+{
+  "name": "Hyperconsciousness",
+  "description": "Developer-alpha encrypted, append-only knowledge store with a Rust CLI and stdio MCP server for search and retrieval through scoped, expiring grants. Build from source; requires an initialized local store and an owner-issued grant.",
+  "url": "https://github.com/louis030195/hyperconsciousness",
+  "category": "AI/ML",
+  "tags": [
+    "knowledge",
+    "memory",
+    "rust",
+    "local",
+    "mcp",
+    "stdio"
+  ],
+  "author": {
+    "name": "Louis Beaumont",
+    "github": "louis030195"
+  },
+  "license": "MIT",
+  "documentation": "https://github.com/louis030195/hyperconsciousness#give-an-agent-limited-access",
+  "examples": [
+    "Build from source: git clone https://github.com/louis030195/hyperconsciousness.git; cd hyperconsciousness; cargo build --release --locked",
+    "After initializing an isolated store and creating a scoped grant as documented in the README, configure the absolute hc executable with args: mcp --as <grant-id> --dir <absolute-store-path>."
+  ],
+  "requirements": {
+    "other": "Rust 1.88.0 via rustup to build from source. Linux also needs the native development headers documented in the README. Runtime requires a local HC store and a scoped grant."
+  },
+  "features": [
+    "Signed, encrypted, append-only records",
+    "Scoped, expiring access grants",
+    "MCP search, recent records, record retrieval and file tools"
+  ],
+  "status": "alpha",
+  "last_updated": "2026-09-26"
+}
