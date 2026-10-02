@@ -1,0 +1,49 @@
+{
+  "name": "VideoGen MCP",
+  "description": "Official VideoGen MCP server for creating and editing videos, images, voiceovers, music, and avatars. Local stdio and hosted HTTP with OAuth or API keys. Website: https://videogen.io/videogen-mcp",
+  "url": "https://github.com/video-gen/videogen-mcp",
+  "category": "AI/ML",
+  "tags": [
+    "video",
+    "image-generation",
+    "voiceover",
+    "music",
+    "avatars",
+    "marketing",
+    "api",
+    "mcp",
+    "typescript",
+    "oauth"
+  ],
+  "installation": [
+    {
+      "command": "npx -y @videogen/mcp",
+      "package": "@videogen/mcp",
+      "type": "npm"
+    }
+  ],
+  "author": {
+    "name": "VideoGen",
+    "github": "video-gen",
+    "email": "info@videogen.io"
+  },
+  "license": "MIT",
+  "documentation": "https://videogen.io/videogen-mcp",
+  "examples": [
+    "Create ecommerce product-marketing videos from a storyboard.",
+    "Generate images and voiceovers, then edit and export a video project."
+  ],
+  "requirements": {
+    "node": ">=20.0.0",
+    "other": "Local stdio: VIDEOGEN_API_KEY. Hosted HTTP: https://mcp.videogen.io/mcp with OAuth or API key. Generation requires account credits."
+  },
+  "features": [
+    "Four video workflows",
+    "Image, video, voiceover, music, and avatar generation",
+    "Media uploads, project editing, and video exports",
+    "Hosted Streamable HTTP and local stdio",
+    "Documented input/output schemas"
+  ],
+  "status": "stable",
+  "last_updated": "2026-10-02"
+}
