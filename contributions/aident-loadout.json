@@ -1,0 +1,38 @@
+{
+  "name": "Aident Loadout",
+  "description": "Remote MCP server (streamable HTTP, OAuth) that connects Codex, Claude Code, Cursor, ChatGPT and other MCP clients to 1,000+ apps and 400+ expert-built Skills through one setup. Credentials stay in Aident Vault; every action is logged in Audit. Homepage: https://aident.ai — MCP endpoint: https://loadout.aident.ai/mcp",
+  "url": "https://github.com/Aident-AI/aident-skill",
+  "category": "AI/ML",
+  "tags": ["mcp", "remote", "oauth", "ai-agents", "integrations"],
+  "installation": [
+    {
+      "command": "claude mcp add --transport http aident https://loadout.aident.ai/mcp",
+      "package": "https://loadout.aident.ai/mcp",
+      "type": "remote"
+    }
+  ],
+  "author": {
+    "name": "Aident AI",
+    "github": "Aident-AI",
+    "email": "luciana@aident.ai"
+  },
+  "license": "MIT",
+  "documentation": "https://docs.aident.ai/loadout/overview",
+  "examples": [
+    "Add remote MCP: claude mcp add --transport http aident https://loadout.aident.ai/mcp",
+    "Connect Cursor / ChatGPT / Codex to https://loadout.aident.ai/mcp (streamable HTTP + OAuth)",
+    "Browse docs: https://docs.aident.ai/loadout/overview"
+  ],
+  "requirements": {
+    "other": "MCP client with streamable HTTP + OAuth support; Aident account at https://aident.ai"
+  },
+  "features": [
+    "Remote MCP over streamable HTTP with OAuth",
+    "1,000+ apps and 400+ expert-built Skills in one setup",
+    "Credentials stored in Aident Vault",
+    "Full action logging via Audit",
+    "Works with Codex, Claude Code, Cursor, ChatGPT and other MCP clients"
+  ],
+  "status": "stable",
+  "last_updated": "2026-10-03"
+}
