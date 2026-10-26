@@ -1,0 +1,41 @@
+{
+  "name": "Agent Payment Node",
+  "description": "Local-first payment runtime with a stdio MCP server for x402 offer inspection, bounded payment preparation, status and receipt recovery. Apple Silicon macOS and Node 24 only. Direct transfers and EVM x402 signing require foreground owner approval; Solana exact x402 can execute under owner-admitted policy.",
+  "url": "https://github.com/nuanu-ai/agent-payment-node",
+  "category": "API",
+  "tags": [
+    "payments",
+    "x402",
+    "stdio",
+    "macos",
+    "typescript"
+  ],
+  "installation": [
+    {
+      "command": "brew install nuanu-ai/tap/apn",
+      "package": "nuanu-ai/tap/apn",
+      "type": "homebrew"
+    }
+  ],
+  "author": {
+    "name": "Nuanu AI",
+    "github": "nuanu-ai"
+  },
+  "license": "MIT",
+  "documentation": "https://github.com/nuanu-ai/agent-payment-node#how-apn-works",
+  "examples": [
+    "apn mcp config",
+    "apn mcp serve"
+  ],
+  "requirements": {
+    "node": "24.x",
+    "other": "Apple Silicon macOS; no Linux, Windows, Docker or hosted MCP endpoint."
+  },
+  "features": [
+    "x402 offer inspection",
+    "Bounded payment preparation",
+    "Operation status and receipt recovery",
+    "Foreground signing and owner-admitted payment policies"
+  ],
+  "last_updated": "2026-10-25"
+}
