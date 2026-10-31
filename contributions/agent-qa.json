@@ -1,0 +1,35 @@
+{
+  "name": "agent-qa",
+  "description": "Local MCP server for web and mobile QA with memidex persistent memory, validated self-improvement, and reviewable run evidence.",
+  "url": "https://github.com/vostride/agent-qa",
+  "category": "Web Development",
+  "tags": ["testing", "qa", "browser-automation", "mobile", "mcp", "memory"],
+  "installation": [
+    {
+      "command": "npx agent-qa mcp",
+      "package": "agent-qa",
+      "type": "npm"
+    }
+  ],
+  "author": {
+    "name": "vostride",
+    "github": "vostride"
+  },
+  "license": "FSL-1.1-ALv2",
+  "documentation": "https://vostride.com/docs/agent-qa/mcp",
+  "examples": [
+    "Configure agent-qa and a model provider in a project, then start the stdio MCP server with npx agent-qa mcp from that project.",
+    "Use an MCP client to create and run web or mobile tests, inspect recorded evidence, and review project memory."
+  ],
+  "requirements": {
+    "node": ">=24.0.0",
+    "other": "A configured model provider or compatible local model; mobile testing also requires Appium and the platform SDK, with macOS and Xcode for iOS. Model and external-service charges are separate."
+  },
+  "features": [
+    "Web, Android, and iOS test execution through CLI and MCP interfaces",
+    "memidex persistent memory across test runs",
+    "Validated self-improvement grounded in verified run evidence",
+    "Reviewable test results and recorded evidence"
+  ],
+  "last_updated": "2026-10-31"
+}
