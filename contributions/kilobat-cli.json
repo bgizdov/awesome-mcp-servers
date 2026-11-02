@@ -1,0 +1,13 @@
+{
+  "name": "Kilobat CLI",
+  "description": "GPL-3.0-only macOS network diagnostics CLI with a local stdio MCP server. The separate desktop app is proprietary.",
+  "url": "https://github.com/seifip/kilobat-cli",
+  "category": "Monitoring",
+  "tags": ["macos", "network", "diagnostics", "stdio"],
+  "author": {"name": "Philip Seifi", "github": "seifip"},
+  "license": "GPL-3.0-only",
+  "documentation": "https://github.com/seifip/kilobat-cli#readme",
+  "requirements": {"other": "macOS 14 or later; Xcode 16 or later when building from source"},
+  "features": ["Local MCP status inspection", "Network diagnostics"],
+  "status": "stable"
+}
