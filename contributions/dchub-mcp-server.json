@@ -1,0 +1,36 @@
+{
+  "name": "DC Hub",
+  "description": "DC Hub is the live data layer for data-center site selection. Its Data Center Power Index (DCPI) is a daily score of where data centers can get grid power, across 300+ markets. 94 tools covering grid, energy prices, interconnection queues, fiber, and site analysis. Remote MCP at https://dchub.cloud/mcp — free to start.",
+  "url": "https://github.com/azmartone67/dchub-mcp-server",
+  "category": "Other",
+  "tags": ["data-center", "energy", "grid", "dcpi", "remote", "http"],
+  "installation": [
+    {
+      "command": "Connect any MCP client to https://dchub.cloud/mcp (Streamable HTTP). Free to start: https://dchub.cloud/connect?utm_source=bgizdov-awesome-mcp-servers&utm_medium=listing&utm_campaign=directories",
+      "package": "dchub-mcp-server",
+      "type": "remote"
+    }
+  ],
+  "author": {
+    "name": "Jonathan Martone",
+    "github": "azmartone67"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "documentation": "https://dchub.cloud/connect?utm_source=bgizdov-awesome-mcp-servers&utm_medium=listing&utm_campaign=directories",
+  "examples": [
+    "Remote endpoint: https://dchub.cloud/mcp",
+    "Get market DCPI rank for a metro",
+    "Search facilities and interconnection queues"
+  ],
+  "requirements": {
+    "other": "HTTPS MCP client; free key optional to start"
+  },
+  "features": [
+    "Data Center Power Index (DCPI) across 300+ markets",
+    "94 MCP tools for grid, energy, fiber, and site selection",
+    "Remote Streamable HTTP — no local install required",
+    "Free to start"
+  ],
+  "status": "stable",
+  "last_updated": "2026-11-05"
+}
