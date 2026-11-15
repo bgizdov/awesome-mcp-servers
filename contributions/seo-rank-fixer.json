@@ -1,0 +1,41 @@
+{
+  "name": "SEO Rank Fixer",
+  "description": "Hosted MCP server for Google Search Console and Bing data: SEO fixes ranked by the clicks they can win, site audits, index status, page scans and AI search visibility.",
+  "url": "https://seorankfixer.com",
+  "category": "Web Development",
+  "tags": [
+    "seo",
+    "google-search-console",
+    "bing",
+    "site-audit",
+    "ai-search",
+    "remote"
+  ],
+  "installation": [
+    {
+      "command": "claude mcp add --transport http --scope user seo-rank-fixer https://seorankfixer.com/api/mcp",
+      "package": "https://seorankfixer.com/api/mcp",
+      "type": "remote"
+    }
+  ],
+  "author": {
+    "name": "SEO Rank Fixer",
+    "github": "sharikwani",
+    "email": "daniel@seorankfixer.com"
+  },
+  "license": "MIT",
+  "documentation": "https://seorankfixer.com/connectors",
+  "examples": [
+    "Ask your AI assistant: \"What should I fix first on mysite.com?\""
+  ],
+  "requirements": {
+    "other": "An MCP client with OAuth 2.1 support (Claude, ChatGPT, Cursor, VS Code); a free SEO Rank Fixer account"
+  },
+  "features": [
+    "SEO fixes ranked by the clicks they can win, from your own Search Console data",
+    "Site audit with a health score, index status and instant page scans",
+    "AI search visibility: how ChatGPT, Claude, Perplexity and Gemini answer and cite you"
+  ],
+  "status": "stable",
+  "last_updated": "2026-11-15"
+}
