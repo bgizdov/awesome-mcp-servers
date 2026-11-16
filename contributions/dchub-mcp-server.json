@@ -1,6 +1,6 @@
 {
   "name": "DC Hub",
-  "description": "DC Hub is the orchestration layer for data center and energy intelligence: start with execute_plan. It also publishes the Data Center Power Index (DCPI), a daily score of where data centers can get grid power across 300+ markets. 96 tools covering grid, energy prices, interconnection queues, fiber, and site analysis. Remote MCP at https://dchub.cloud/mcp. DCHUB_API_KEY is optional.",
+  "description": "DC Hub is the orchestration layer for data center and energy intelligence: start with execute_plan. It also publishes the Data Center Power Index (DCPI), a daily score of where data centers can get grid power across 300+ markets. 97 tools covering grid, energy prices, interconnection queues, fiber, and site analysis. Remote MCP at https://dchub.cloud/mcp. DCHUB_API_KEY is optional.",
   "url": "https://github.com/azmartone67/dchub-mcp-server",
   "category": "Other",
   "tags": [
@@ -34,7 +34,7 @@
   },
   "features": [
     "Data Center Power Index (DCPI) across 300+ markets",
-    "96 MCP tools for grid, energy, fiber, and site selection",
+    "97 MCP tools for grid, energy, fiber, and site selection",
     "Remote Streamable HTTP — no local install required",
     "DCHUB_API_KEY is optional"
   ],
