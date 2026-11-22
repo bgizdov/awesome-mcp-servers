@@ -1,0 +1,44 @@
+{
+  "name": "i2v.ai MCP Server",
+  "description": "Generate images and videos across 12 image models and 16 video models from one hosted MCP server, quoting each paid task in USD and honouring a caller-set spending ceiling before it runs.",
+  "url": "https://github.com/i2v-ai/i2v-mcp",
+  "category": "AI/ML",
+  "tags": [
+    "image-generation",
+    "video-generation",
+    "text-to-video",
+    "image-to-video",
+    "remote-mcp"
+  ],
+  "installation": [
+    {
+      "command": "npx -y @i2v-ai/cli mcp",
+      "package": "@i2v-ai/cli",
+      "type": "npm"
+    }
+  ],
+  "author": {
+    "name": "i2v.ai",
+    "github": "i2v-ai",
+    "email": "support@i2v.ai"
+  },
+  "license": "MIT",
+  "documentation": "https://i2v.ai/docs/mcp",
+  "examples": [
+    "Hosted endpoint: https://i2v.ai/api/mcp (Streamable HTTP, OAuth 2.1 with PKCE or a Bearer API key)",
+    "list_models -> estimate_cost -> create_task with maxCostUsd -> get_task"
+  ],
+  "requirements": {
+    "node": ">=20.0.0",
+    "other": "I2V_API_KEY for the local stdio server, or an OAuth sign-in for the hosted endpoint"
+  },
+  "features": [
+    "12 image models and 16 video models behind one interface",
+    "USD quote returned before every paid task",
+    "Caller-set maxCostUsd ceiling rejects over-budget reservations",
+    "13 tools, 3 prompt templates and 12 client guides over MCP",
+    "Text-to-video and image-to-video in the same endpoint"
+  ],
+  "status": "stable",
+  "last_updated": "2026-11-22"
+}
